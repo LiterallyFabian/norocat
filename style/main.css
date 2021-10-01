@@ -1,0 +1,32 @@
+.d-none {
+    display: none;
+}
+
+.flower {
+    font-family: 'Indie Flower', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(11, 22, 34);
+    font-family: 'Public Sans', Courier, monospace;
+    color: #9fadbd;
+}
+
+.banner {
+    text-align: center;
+    font-size: 20px;
+}
+
+.pulse {
+    animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.1)
+    }
+}
